@@ -7,7 +7,7 @@ import Image from "next/image"
 import UserContext from "context/userContext"
 import PhotosTimeLineContext from "context/photosTimeLineContext"
 
-const ShowImage : NextPage = () => {
+const ShowImage : any = () => {
 
     const {photos, setPhotos} = useContext(PhotosTimeLineContext)
     const {user, setUser} = useContext(UserContext)
